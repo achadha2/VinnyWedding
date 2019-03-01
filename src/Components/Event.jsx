@@ -49,6 +49,8 @@ export default class Event extends React.Component {
       currentEvent = mehndi;
     } else if (this.props.event === "sangeet") {
       currentEvent = sangeet;
+    } else if (this.props.event === "wedding") {
+      currentEvent = wedding;
     }
 
     console.log("hello");
