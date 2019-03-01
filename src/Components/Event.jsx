@@ -30,6 +30,16 @@ const sangeet = {
     "You should dress for the dance. I've seen many different things, but just buy a kurta, which is basically like a tablecloth with holes in your head and hands. If you have a canvas tablecloth, just bring that to a tailor and pay him like five dollars and you should be okay. Wear Jeans or Sweatpants under the tablecloth, or even just shorts if its summer. This event is also bring your own turban, but if you don't have one, just use a curtain."
 };
 
+const wedding = {
+  name: "Wedding Ceremony",
+  desc:
+    "This is the actual wedding, and it symbolizes the sacred joining of two families by burning and chanting and fire. This whole thing is very similar to Harry Potter. It starts with people deciding the date of the wedding by looking at the sky. Then, they tie the bride and groom together and make them walk around fire, like a big fire. I think if you decide you dont want to get married, they push you in. Also the cloth comes really close to the fire so its dangerous. I think thats how god says no to a marriage, by setting them on fire. All in all a very boring ceremony. Theres some culture happening when they walk around the fire. Very cultural event. Bring a coat",
+  analysis:
+    "You watch people walk around a fire, I feel like after so much dancing and singing you end with something like this. The people who made the weddings didnt have internet. So they never saw the matrix and stuff. They don't know how to put on a show or a good event. I recommend bringing fireworks to this. If you start lighting them during the event people will get excited and you'll save the wedding. Fireworks are easily available in India and pretty cheap. Just dont blow someone up, especially from the bride/grooms family. Fireworks are way better than fire. Its like adding work to fire makes it better",
+  dress:
+    "You should dress good. At least a blazer with a t-shirt and pressed jeans. No sweatpants or anything like that. You can wear the tablecloth here too, but it should be a different one than the one from the Sangeet. "
+};
+
 var currentEvent = home;
 
 export default class Event extends React.Component {
