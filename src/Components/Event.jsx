@@ -3,7 +3,7 @@ import React from "react";
 const home = {
   name: "So you want to learn about Indian Weddings?",
   desc:
-    "Click the links above to go through the events. This website is supposed to intruct you on everything you need to know for attending an Indian Wedding. Each event will follow the structure shown here, going through what the event is, my personal analysis of the event and what to wear for the event. I consider myself somewhat of an expert on the subject with a unique worldview. This site is currently sponsered by Bernardi. They make good reliable cars, that aren't flashy but they get you where you need to go",
+    "Click the links above to go through the events. This website is supposed to instruct you on everything you need to know for attending an Indian Wedding. Each event will follow the structure shown here, going through what the event is, my personal analysis of the event and what to wear for the event. I consider myself somewhat of an expert on the subject with a unique worldview. This site is currently sponsered by Bernardi. They make good reliable cars, that aren't flashy but they get you where you need to go",
   analysis:
     "Make sure you pre-game for these events because a lot of them can be dry. If they are dry, look for water bottles that are being carried by people. Sometimes they have vodka in them. Don't eat or drink anything that looks or smells weird. Don't eat food off the roadside either. That can get you sick. There are some places that will give you happy endings if you can find them. Make sure you ask them before you go, because otherwise its weird.",
   dress:
