@@ -37,7 +37,17 @@ const wedding = {
   analysis:
     "You watch people walk around a fire, I feel like after so much dancing and singing you end with something like this. The people who made the weddings didnt have internet. So they never saw the matrix and stuff. They don't know how to put on a show or a good event. I recommend bringing fireworks to this. If you start lighting them during the event people will get excited and you'll save the wedding. Fireworks are easily available in India and pretty cheap. Just dont blow someone up, especially from the bride/grooms family. Fireworks are way better than fire. Its like adding work to fire makes it better",
   dress:
-    "You should dress good. At least a blazer with a t-shirt and pressed jeans. No sweatpants or anything like that. You can wear the tablecloth here too, but it should be a different one than the one from the Sangeet. "
+    "You should dress good. At least a blazer with a t-shirt and pressed jeans. No sweatpants or anything like that. You can wear the tablecloth here too, but it should be a different one than the one from the Sangeet. If you want to be super traditional, you can also show up naked, because they didnt always have clothes in history."
+};
+
+const reception = {
+  name: "Reception",
+  desc:
+    "This is the easy part, it's just the traditional after wedding frat party. You can go drink and eat and talk to people and have fun. There is also dancing and grinding and girls named Elizabeth if you're interested in that. You should know what to do and wear to this. It's a normal party, but not like a toga party - more like a theme party where the theme is a wedding reception. Go hang around and have fun, make sure to say congrats to the bride and groom, and also visit the Goopta 🔪 💉 💵 . But be careful - he's dangerous.",
+  analysis:
+    "Look for a big guy with a huge smile at any wedding you go to. His name is Kahaan and he is at every Indian Wedding in the world by law. If he was not in attendance, the fire walking ceremony doesn't count. I think he brings the fire to all the weddings or something. He's very friendly and will tell you everything you need to know and a hundred more things. I think this is the best part, because you let loose and have fun (with respect of course, Iquique brah)",
+  dress:
+    "I cannot recommend Blue Jeans enough for this event. Blue jeans and a sport jacket. Make sure its not a regular jacket and go play two soccer matches in it to make it a sport jacket. For blue jeans, you have to go Levi's - they were made for immigrants by immigrants and we have to support immigration and small business. Levi was a good man and he made the best Jeans, for weddings. Consider a fluorescent sport jacket so your friends can find you easier and you wont get lost."
 };
 
 var currentEvent = home;
@@ -51,6 +61,10 @@ export default class Event extends React.Component {
       currentEvent = sangeet;
     } else if (this.props.event === "wedding") {
       currentEvent = wedding;
+    } else if (this.props.event === "reception") {
+      currentEvent = reception;
+    } else if (this.props.event === "home") {
+      currentEvent = home;
     }
 
     console.log("hello");
