@@ -55,6 +55,7 @@ code {
 .navbar li:hover {
   border-bottom-style: solid;
   border-color: white;
+  cursor: pointer;
 }
 
 .navbar li a {
